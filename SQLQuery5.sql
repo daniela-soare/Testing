@@ -1,0 +1,6 @@
+SELECT Nume,Prenume FROM Elevi 
+SELECT ID_ELEV, ID_PROF, Nota FROM Nota WHERE Nota<'5'
+SELECT Nota FROM Nota WHERE Nota >'7'; SELECT ID_MAT FROM Nota WHERE ID_MAT = 1
+SELECT Prenume, Telefon FROM Profesori
+SELECT Nota FROM Nota WHERE Data ='16022023'
+
